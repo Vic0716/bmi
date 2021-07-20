@@ -26,8 +26,8 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_height="match_parent"
-        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
         android:orientation="horizontal">
 
         <TextView
@@ -44,8 +44,8 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_height="match_parent"
-        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
         android:orientation="horizontal">
 
         <Button
@@ -62,11 +62,6 @@
         android:id="@+id/result"
         android:text="結果"
         android:textSize="26sp"/>
-
-
-
-
-
 
 
 </LinearLayout>
