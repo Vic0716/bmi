@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void bmiClick(View view){  //要讓佈局檔呼叫的方法，權限一定要是 public
-        float userweight = Integer.parseInt(weight.getText().toString());
-        float userheight = Integer.parseInt(height.getText().toString());
-        float bmi = userweight / (userheight / 100) * (userheight / 100);
+        float userweight = Float.parseFloat(weight.getText().toString());
+        float userheight = Float.parseFloat(height.getText().toString());
+        float bmi = userweight / ((userheight / 100) * (userheight / 100));
 
         result.setText("結果: "+bmi);
     }
